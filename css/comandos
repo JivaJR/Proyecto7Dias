@@ -1,0 +1,117 @@
+
+.Generales{
+    Style: 
+        se usa para dar estilo, generalmente se reemplaza por un css
+    title: 
+        Genera un texto cuando se pasa el ratón por encima
+    href="mailto:email@email.com" 
+        Se usa para enviar un imail a la direccion puesta (Se usa en los tags de enlace
+    target=”__blank” 
+        Si se desea abrir una nueva pestaña (blank indica que no)
+}
+.formularios{
+    action="url" 
+        Con esto se definde a donde se envia la infpormacion del formulario 
+    name=”name” 
+        este atributo es necesario en formularios ya que define donde se mandan los datos (key)
+    type:
+        text
+            Linea de texto
+        radio
+            Para seleccionar varias opciones
+        submit
+            para enviar el formulario
+}
+
+.texto{
+    font-family
+        Esta propiedad declara el tipo de letra que se usa para mostrar el texto.
+    font-size
+        Esta propiedad determina el tamaño de la letra.
+    font-weight
+        Esta propiedad determina si el texto se mostrará en negrita o no. 
+    font-style
+        Esta propiedad determina el estilo de la letra.
+    font
+        Esta propiedad nos permite declarar múltiples valores al mismo tiempo. 
+    text-align
+        Esta propiedad alinea el texto dentro de un elemento. Los valores disponibles son left, right, center, y justify.
+    text-align-last
+        Esta propiedad alinea la última línea de un párrafo. Los valores disponibles son left, right, center, y justify.
+    text-indent
+        Esta propiedad define el tamaño de la sangría de un párrafo.
+    letter-spacing
+        Esta propiedad define el espacio entre letras.
+    word-spacing
+        Esta propiedad define el ancho del espacio entre palabras. 
+    line-height
+        Esta propiedad define el espacio entre líneas.
+    vertical-align
+        Esta propiedad alinea elementos verticalmente. Se usa frecuentemente
+        para alinear texto con imágenes (la propiedad se aplica a la imagen).
+    text-decoration
+        Esta propiedad resalta el texto con una línea.     
+}
+.color{
+    color: rgb(rojo, verde, azul);
+        Esta función define un color por medio de los valores especificados por los atributos (desde 0 a 255).
+    color:rgba(rojo, verde, azul, alfa);
+        Incluye un componente adicional para definir la opacidad (alfa). 
+        El valor se puede declarar entre 0 y 1, con 0 como totalmente transparente y 1 como totalmente opaco.
+    color:hsl(matiz, saturación, luminosidad);
+        Esta función define un color desde los valores especificados por los atributos.
+    color:hsla(matiz, saturación, luminosidad, alfa);
+        incluye un componente adicional para definir la opacidad (alfa). 
+        El valor se puede declarar entre 0 y 1, con 0 como totalmente transparente y 1 como totalmente opaco.
+}
+
+.tamaños{
+    width
+        Esta propiedad declara el ancho de un elemento. 
+    height
+        Esta propiedad declara la altura de un elemento.
+    overflow
+        Esta propiedad especifica cómo se mostrará el contenido que desborda el elemento. 
+        Los valores disponibles son visible (por defecto), hidden (esconde el contenido que no entra dentro de la caja),
+        scroll (muestra barras laterales para desplazar el contenido)
+        auto (deja que el navegador decida qué hacer con el contenido)
+    overflow-x
+        Esta propiedad especifica cómo se mostrará el contenido que desborda el elemento horizontalmente.
+    overflow-y  
+        Esta propiedad especifica cómo se mostrará el contenido que desborda el elemento verticalmente. 
+    overflow-wrap
+        Esta propiedad indica si un palabra debería ser dividida en un punto arbitrario cuando no hay suficiente espacio 
+        para mostrarla en la línea. Los valores disponibles son normal (la línea será dividida naturalmente) 
+        y break-word (las palabras se dividirán en puntos arbitrarios para acomodar la línea de texto en el espacio disponible).
+    margin  
+        Esta propiedad declara el margen de un elemento. 
+    padding
+        Esta propiedad declara el relleno de un elemento. 
+}
+
+.fondo{
+    background-color
+        Esta propiedad asigna un fondo de color a un elemento.
+    background-image
+        Esta propiedad asigna una o varias imágenes al fondo de un elemento. 
+        La URL del archivo se declara con la función url() 
+    background-repeat
+        Esta propiedad determina cómo se distribuye la imagen de fondo usando cuatro palabras clave: 
+        La palabra clave repeat repite la imagen en el eje vertical y horizontal, 
+        mientras que repeat-x y repeat-y lo hacen solo en el eje horizontal o vertical, respectivamente. 
+        Finalmente, norepeat muestra la imagen de fondo una sola vez.
+    background-position
+        Esta propiedad declara la posición de comienzo de una imagen de fondo. 
+    background-size
+        Esta propiedad declara el tamaño de la imagen de fondo. 
+    background-origin  
+        Esta propiedad determina si la imagen de fondo se posicionará considerando el borde, 
+        el relleno o el contenido del área del elemento.
+    background-clip
+        Esta propiedad declara el área a cubrir por el fondo usando los valores border-box, padding-box, y content-box. 
+    background-attachment
+        Esta propiedad determina si la imagen es estática o se desplaza con el resto de los elementos usando dos valores: 
+        El valor scroll hace que la imagen se desplace con la página, y el valor fixed fija la imagen de fondo en su lugar original.
+    background
+        Esta propiedad nos permite declarar todos los atributos del fondo al mismo tiempo.
+}

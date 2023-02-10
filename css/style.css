@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1,p,a{
+    padding-bottom: 20px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: solid red;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 30px;
+    margin: 10px 50px 10px 50px;
+    border: solid red;
+}
+/*Header*/
+.logo{
+    width: 100px;
+    height: 33.17px;
+}
+
+header{
+    align-items: center;
+    width: 100%;
+}
+
+
+nav a{
+    color:red;
+    font-style: none;
+    text-decoration: none;
+    padding: 0px;
+}
+/*Botones*/
+.redButton {
+    background-color: #e50914;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    display: inline-flex;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+ 
+/*Primera seccion (inicio)*/
+#inicio{
+    background-image: url(../img/bannerprincipal.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    
+}
+
+.bloque-inicio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size:larger;
+    color:white;
+}
+/*Segunda seccion (nosotros)*/
+#nosotros{
+    background-size:cover;
+    background-image: url(../img/latas.jpg);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    color:white;
+
+}
+/*Tercera seccion (Servicios)*/
+#servicios{
+    color:black;
+}
+.bloque-contenido-servicios{
+    color:black;
+}
+
+/*footer*/
+footer{
+    background-color: gray;
+    display: inline-block;
+    align-content: center;
+    width: 100%;
+}
+footer div{
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 100px;
+    height: 50px;
+}
+.barra-footer{
+    display: block;
+}
+
+.columna-25{
+    width: 25%;
+    display: block;
+    border: solid pink;
+    padding-left: 20px;
+    padding-right: 20px;
+}
